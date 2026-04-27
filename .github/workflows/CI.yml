@@ -11,6 +11,8 @@ permissions:
   push:
     branches:
       - electron
+      - copilot/create-workflows-and-tests
+      - latest
     paths:
       - 'awrit-native-rs/package.json'
       - 'awrit-native-rs/Cargo.*'
