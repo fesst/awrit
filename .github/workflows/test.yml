@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - electron
-      - copilot/create-workflows-and-tests
       - latest
   pull_request:
     branches:
       - electron
       - latest
+
+permissions:
+  contents: read
 
 jobs:
   lint:
