@@ -11,6 +11,7 @@ permissions:
   push:
     branches:
       - electron
+      - latest
     paths:
       - 'awrit-native-rs/package.json'
       - 'awrit-native-rs/Cargo.*'

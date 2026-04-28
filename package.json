@@ -19,6 +19,7 @@
     "input-test": "bun run ./src/tty/inputTest.ts",
     "gfx-test": "bun run ./src/tty/graphicsTest.ts",
     "bump-crossterm": "git subtree pull --prefix=awrit-native-rs/crates/crossterm --squash https://github.com/crossterm-rs/crossterm master",
+    "test": "bun test",
     "typecheck": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
